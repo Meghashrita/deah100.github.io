@@ -1,0 +1,344 @@
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background: url("images/image2.jpg");
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Tahoma;
+    margin-right: 80px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover
+{
+    background: #000;
+    border: 2px solid #fff;
+}
+
+.head-content
+{
+    text-align: center;
+
+}
+
+.head-content img
+{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+
+.head-content img:hover
+{
+    border: 2px solid #000;
+}
+
+.name
+{
+    cursor: pointer;
+    font-size: 50px;
+    color: #fff;
+    font-family: Algerian;
+}
+
+.desc
+{
+    cursor: default;
+    font-size: 50px;
+    color: #fff;
+    font-family: Harlow Solid;
+}
+
+.about-section
+{
+    background: url("images/image1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.about-section h2
+{
+    text-align:center;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.about-section p
+{
+    font-size: 30px;
+    font-family: Harlow solid;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 15px;
+
+}
+
+.academic-section
+{
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5A8);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+
+@keyframes change
+{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.academic-section h2
+{
+      text-align:center;
+      font-size: 50px;
+      font-family: sans-serif;
+      text-decoration: underline;
+}
+
+.academic-section li
+{
+    font-size: 30px;
+    font-family: Harlow solid;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 15px;
+} 
+
+.academic-section h2
+{
+animation-name: red-to-yellow;
+animation-duration: 4s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+ 
+@keyframes red-to-yellow{
+    0%{
+        background: red;
+        transform: translate(0px,0px);
+        }
+    50%{
+        background:blue;
+        transform: translate(0px,0px);
+        }
+
+    100%{
+        background:yellow;
+        transform: translate(0px,0px);
+        }
+
+
+}
+
+.skill-section
+{
+    background: url("images/image3.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.skill-section h2
+{
+    text-align:center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: underline;
+
+}
+
+.skill-section ol
+{
+    font-size: 30px;
+    font-family: Harlow solid;
+    width: 500px;
+    text-align: center;
+    padding: 40px;
+} 
+
+.skill-section h2
+{
+animation-name: pink-to-green;
+animation-duration: 4s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+ 
+@keyframes pink-to-green{
+    0%{
+        background:pink;
+        transform: translate(0px,0px);
+        }
+    50%{
+        background:red;
+        transform: translate(0px,0px);
+        }
+
+    100%{
+        background:green;
+        transform: translate(0px,0px);
+        }
+
+
+}
+
+.art-gallery h2
+{
+    text-align:center;
+    font-size: 50px;
+    font-family:sans-serif;
+    text-decoration: underline;
+}
+
+.art-gallery
+{
+    margin: 10px 50px;
+}
+
+.art-gallery img
+{
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.art-gallery img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.art-gallery h2
+{
+animation-name: pink-to-green;
+animation-duration: 4s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+ 
+@keyframes pink-to-green{
+    0%{
+        background:pink;
+        transform: translate(0px,0px);
+        }
+    50%{
+        background:red;
+        transform: translate(0px,0px);
+        }
+
+    100%{
+        background:green;
+        transform: translate(0px,0px);
+        }
+
+
+}
+.contact-section
+{
+    background: url("images/contact.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact-section h2
+{
+    text-align:center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.s-m
+{
+    position:absolute;
+    top: 570%;
+    left: 50%;
+    transform: translate(-53%,-50%);
+}
+
+.s-m a
+{
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px 20px;
+    color: red;
+    border: 5px solid red;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.s-m :hover
+{
+    color: royalblue;
+    border: 5px solid royalblue;
+}
+
+.copyright
+{
+    background:yellow;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    cursor: default;
+}
